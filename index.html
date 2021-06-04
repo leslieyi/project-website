@@ -8,16 +8,23 @@
 
 </head>
 
-<body>
+<body class="background">
+
+
     <script src="script.js"></script>
     <h1>Leslie Yi Photography</h1>
-    <div class="main">
-        <div class="bio">
-            <img id="profile" src="pictures/profile.jpeg" alt="Photo of Leslie" title="Photo Credit: ShoottPhotos" />
+    <div>
+        <a href="#main"><button class="tab">Home</button></a>
+        <a href="#photos"><button class="tab">Gallery</button></a>
+        <a href="#services"><button class="tab">Services</button></a>
+    </div>
 
-            <p id="info">
-                Hi, y'all. My name is Yearim Leslie Yi, but people call me by my middle name, Leslie. Recently I graduated from Manhattan School of Music with a Master's in Piano Performance. For a part time job and hobby, I work as a natural light photographer based
-                in Manhattan. I offer affordable sessions, starting from $100 an hour. Message to set up a session!</p>
+    <div class="page" id="main">
+        <div class="bio">
+
+
+            <p id="info"> <img id="profile" src="pictures/profile.jpeg" alt="Photo of Leslie" title="Photo Credit: ShoottPhotos" /> Hi, y'all. My name is Yearim Leslie Yi, but people call me by my middle name, Leslie. Recently I graduated from Manhattan School of Music
+                with a Master's in Piano Performance. For a part time job and hobby, I work as a natural light photographer based in Manhattan. I offer affordable sessions, starting from $100 an hour. Message to set up a session!</p>
         </div>
         <div class="links">
             <p>
@@ -28,9 +35,62 @@
         </div>
     </div>
 
-    <div class="photos">
+    <!-- <div>
+        <h3><a href="#services">For Pricings Click Here!</a></h3>
+    </div> -->
+
+
+    <div class="page" id="photos">
         <img id="photo1" src="pictures/photo1.png" alt="Leslie Yi Photography Ad1" />
+
         <img id="photo2" src="pictures/photo2.png" alt="Leslie Yi Photography Ad2" />
+    </div>
+
+    <div class="page" id="services">
+        <h3>Services</h3>
+        <table class="center">
+            <tr>
+                <th>Session</th>
+                <th>Price</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Portrait</td>
+                <td>$100</td>
+                <td>
+                    <ul>
+                        <li>1hour session</li>
+                        <li>10 Fully Edited Digital Copies</li>
+                        <li>All Unedited Digital Copies</li>
+                    </ul>
+                </td>
+
+            </tr>
+            <tr>
+
+                <td>Half Session</td>
+                <td>$80</td>
+                <td>
+                    <ul>
+                        <li>30min session</li>
+                        <li>5 Fully Edited Digital Copies</li>
+                        <li>All Unedited Digital Copies</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Group/Family</td>
+                <td>$200</td>
+                <td>
+                    <ul>
+                        <li>1hour session</li>
+                        <li>10 Fully Edited Digital Copies</li>
+                        <li>All Unedited Digital Copies</li>
+                        <li>min 3, max 5 people</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
     </div>
 
 
